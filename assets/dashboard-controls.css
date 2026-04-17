@@ -1,0 +1,71 @@
+/* Compact the date-control row and Dash core component internals */
+.date-control-bar {
+  max-width: 860px !important;
+  margin: 0 auto 2px auto !important;
+  gap: 4px !important;
+  align-items: flex-end !important;
+}
+
+.date-control-bar .compact-label {
+  font-size: 9px !important;
+  line-height: 1.1;
+}
+
+.date-control-bar .compact-control {
+  gap: 0 !important;
+}
+
+/* Dropdown (react-select under dcc.Dropdown) */
+.date-control-bar .compact-dropdown .Select-control {
+  min-height: 22px !important;
+  height: 22px !important;
+}
+
+.date-control-bar .compact-dropdown .Select-input,
+.date-control-bar .compact-dropdown .Select-placeholder,
+.date-control-bar .compact-dropdown .Select-value-label {
+  line-height: 20px !important;
+  font-size: 10px !important;
+}
+
+.date-control-bar .compact-dropdown .Select-arrow-zone,
+.date-control-bar .compact-dropdown .Select-clear-zone {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Slider (rc-slider under dcc.RangeSlider) */
+.date-control-bar .compact-slider-wrap {
+  padding-bottom: 0 !important;
+}
+
+.date-control-bar .compact-slider {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.date-control-bar .compact-slider .rc-slider-rail,
+.date-control-bar .compact-slider .rc-slider-track {
+  height: 3px !important;
+}
+
+.date-control-bar .compact-slider .rc-slider-handle {
+  width: 10px !important;
+  height: 10px !important;
+  margin-top: -3px !important;
+  border-width: 1px !important;
+}
+
+.date-control-bar .compact-slider .rc-slider-mark-text {
+  font-size: 9px !important;
+  line-height: 1;
+  margin-top: -2px;
+}
+
+/* Reset button */
+.date-control-bar .compact-reset-btn {
+  height: 26px !important;
+  padding: 0 10px !important;
+  font-size: 11px !important;
+  line-height: 24px;
+}
