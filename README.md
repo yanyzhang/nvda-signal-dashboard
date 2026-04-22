@@ -13,4 +13,9 @@ January 15, 2025 – March 15, 2025
 
 ## How to Run
 pip install -r requirements.txt
-jupyter notebook groupproject.ipynb
+python app.py
+
+## Publish to Plotly Cloud
+1. Install cloud support: `pip install "dash[cloud]"`
+2. Start app in debug mode: `python app.py`
+3. Open the app in your browser, open Dash Dev Tools, select Plotly Cloud, sign in, and publish.

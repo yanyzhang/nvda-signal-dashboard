@@ -1,0 +1,18 @@
+# Python environments
+.venv/
+venv/
+
+# Notebook artifacts
+.ipynb_checkpoints/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
